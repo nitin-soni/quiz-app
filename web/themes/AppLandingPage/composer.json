@@ -1,0 +1,13 @@
+{
+    "name": "vendor/app-landing-page",
+    "description": "AppLandingPage theme.",
+    "type": "caffeinated-theme",
+    "autoload": {
+        "psr-4": {
+            "Themes\\AppLandingPage\\": "src/"
+        }
+    },
+    "require": {
+        "caffeinated/composer": "*"
+    }
+}

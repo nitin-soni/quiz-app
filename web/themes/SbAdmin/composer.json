@@ -1,0 +1,13 @@
+{
+    "name": "vendor/sb-admin",
+    "description": "SbAdmin theme.",
+    "type": "caffeinated-theme",
+    "autoload": {
+        "psr-4": {
+            "Themes\\SbAdmin\\": "src/"
+        }
+    },
+    "require": {
+        "caffeinated/composer": "*"
+    }
+}
