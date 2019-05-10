@@ -75,24 +75,17 @@ class PermissionTableSeeder extends Seeder
         //attach permission to role
         $super_admin->attachPermissions($permissions);
         
-        $admin = new Role();
-        $admin->name = 'admin';
-        $admin->display_name = 'Company Admin';
-        $admin->description = 'Admin of company';
-        $admin->save();
-        $admin->attachPermissions($permissions);
-        
         $sub_admin = new Role();
-        $sub_admin->name = 'sub_admin';
-        $sub_admin->display_name = 'Company sub admin';
-        $sub_admin->description = 'Sub admin of company';
+        $sub_admin->name = 'teacher';
+        $sub_admin->display_name = 'Teacher';
+        $sub_admin->description = 'An teacher can add question, quiz etc.';
         $sub_admin->save();
         $sub_admin->attachPermissions($permissions);
         
         $user = new Role();
         $user->name = 'user';
-        $user->display_name = 'Company user';
-        $user->description = 'User of company';
+        $user->display_name = 'end user';
+        $user->description = 'End user of app or student';
         $user->save();
     }
 

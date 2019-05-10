@@ -54,7 +54,7 @@ class User extends Authenticatable implements AuthenticatableContract {
      * Get the phone record associated with the user.
      */
     public function profile() {
-        return $this->hasOne('App\Modules\User\Models\UserProfile', 'user_id');
+        return $this->hasOne('App\Modules\Auth\Models\UserProfile', 'user_id');
     }
 
     /**

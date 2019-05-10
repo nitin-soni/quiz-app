@@ -30,7 +30,7 @@ class ApiController extends BaseController {
 
     /**
      * 
-     * @return type
+     * @return json output
      */
     protected function sendResponse() {
         $this->apiResponse['response_code'] = $this->responseCode;

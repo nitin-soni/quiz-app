@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateMasterCountriesTable extends Migration
+class CreateCountriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,11 @@ class CreateMasterCountriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('master_countries', function (Blueprint $table) {
+        Schema::create('countries', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name')->unique();
-            $table->char('country_code', '3');
-            $table->string('phone_code');
-            $table->timestamps();
+            $table->string('code');
+            $table->string('name');
+            $table->integer('phonecode');
         });
     }
 
@@ -29,6 +28,6 @@ class CreateMasterCountriesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('master_countries');
+        Schema::dropIfExists('countries');
     }
 }

@@ -47,4 +47,20 @@ class Handler extends ExceptionHandler {
         return parent::render($request, $exception);
     }
 
+    /**
+     * Convert a validation exception into a JSON response.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Validation\ValidationException  $exception
+     * @return \Illuminate\Http\JsonResponse
+     */
+    function invalidJson($request, \Illuminate\Validation\ValidationException $exception) {
+        //parent::invalidJson($request, $exception);
+        return response()->json([
+                    'response_code' => $exception->status,
+                    'message' => $exception->getMessage(),
+                    'errors' => $exception->errors(),
+                        ], $exception->status);
+    }
+
 }

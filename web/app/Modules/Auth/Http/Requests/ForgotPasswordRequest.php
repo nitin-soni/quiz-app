@@ -4,7 +4,7 @@ namespace App\Modules\Auth\Http\Requests;
 
 use App\Http\Requests\MyFormRequest;
 
-class SigninRequest extends MyFormRequest {
+class ForgotPasswordRequest extends MyFormRequest {
 
     /**
      * Determine if the user is authorized to make this request.
@@ -22,8 +22,7 @@ class SigninRequest extends MyFormRequest {
      */
     public function rules() {
         return [
-            'username' => 'required|max:255',
-            'password' => 'required|max:20'
+                //
         ];
     }
 
