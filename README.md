@@ -1,4 +1,4 @@
-# quiz-app
+# Quiz App
 
 We are making this app for learning purpose only. To learn react native. 
 
