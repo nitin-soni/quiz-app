@@ -49,5 +49,8 @@ class SignupController extends ApiController {
         $this->apiResponse['message'] = trans('auth::messages.signup_success');
         return $this->sendResponse();
     }
-
+    
+    function test(){
+        return $this->sendResponse();
+    }
 }

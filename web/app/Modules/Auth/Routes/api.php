@@ -15,5 +15,7 @@ use Illuminate\Http\Request;
 
 Route::post('auth/signin', 'Api\SigninController@index')->middleware('throttle:10');
 Route::post('auth/signup', 'api\SignupController@index')->middleware('throttle:10');
+Route::post('auth/test', 'api\SignupController@test');
+Route::get('auth/test', 'api\SignupController@test');
 Route::post('auth/forgot-password', 'api\ForgotPasswordController@sendResetLinkEmail')->middleware('throttle:10');
 Route::post('auth/reset-password', 'api\ResetPasswordController@reset')->middleware('throttle:10');

@@ -176,6 +176,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         
         App\Providers\CustomValidationProvider::class,
+        Barryvdh\Cors\ServiceProvider::class,
+
     ],
 
     /*

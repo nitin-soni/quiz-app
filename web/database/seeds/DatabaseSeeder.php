@@ -10,13 +10,13 @@ class DatabaseSeeder extends Seeder {
      * @return void
      */
     public function run() {
-//        $this->call(StatusTableSeeder::class);
-//        $this->call(PermissionTableSeeder::class);
-//        $this->call(CountriesTableSeeder::class);
-//        $this->call(StatesTableSeeder::class);
-//        $this->call(CitiesTableSeeder::class);
-//        //$this->call(GeoDataSeeder::class);
-//        $this->call(UsersTableSeeder::class);
+        $this->call(StatusTableSeeder::class);
+        $this->call(PermissionTableSeeder::class);
+        $this->call(CountriesTableSeeder::class);
+        $this->call(StatesTableSeeder::class);
+        $this->call(CitiesTableSeeder::class);
+        //$this->call(GeoDataSeeder::class);
+        $this->call(UsersTableSeeder::class);
         if (config('app.debug')) {
             $this->call(UserSeeder::class);
             //$this->call(CategoryTableSeeder::class);
