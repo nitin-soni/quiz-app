@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -13,6 +11,8 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/user', function (Request $request) {
-    // return $request->user();
-})->middleware('auth:api');
+Route::post('user', 'Api\UserController@save')->middleware('auth:api');
+Route::get('user/{guid?}', 'Api\UserController@get')->middleware('auth:api');
+Route::put('user', 'Api\UserController@update')->middleware('auth:api');
+Route::delete('user', 'Api\UserController@delete')->middleware('auth:api');
+Route::put('user/toggle-status', 'Api\UserController@toggleUserStatus')->middleware('auth:api');

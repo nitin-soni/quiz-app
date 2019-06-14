@@ -12,12 +12,10 @@ use Request;
  */
 class Model extends LaravelModel {
 
+    protected $hidden = ['id'];
+
     public function __construct(array $attributes = array()) {
         parent::__construct($attributes);
-        if (Request::get('subdomainName')) {
-            // Set the database connection name.
-            $this->setConnection('companydb');
-        }
     }
-
+    
 }

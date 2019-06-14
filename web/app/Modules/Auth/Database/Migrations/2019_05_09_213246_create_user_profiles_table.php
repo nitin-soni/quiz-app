@@ -31,9 +31,9 @@ class CreateUserProfilesTable extends Migration
             $table->integer('country_id')->unsigned()->nullable();
             $table->integer('state_id')->unsigned()->nullable();
             $table->integer('city_id')->unsigned()->nullable();
-            $table->foreign('country_id')->references('id')->on('master_countries');
-            $table->foreign('state_id')->references('id')->on('master_states');
-            $table->foreign('city_id')->references('id')->on('master_cities');
+            $table->foreign('country_id')->references('id')->on('countries');
+            $table->foreign('state_id')->references('id')->on('states');
+            $table->foreign('city_id')->references('id')->on('cities');
             $table->timestamps();
         });
     }

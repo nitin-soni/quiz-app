@@ -11,4 +11,8 @@ class Status extends Model {
     const DEACTIVE = 3;
     const PENDING = 4;
 
+    const VAL_ARRAY = [
+        'active' => 1,
+        'deactive' => 3,
+    ];
 }

@@ -4,15 +4,14 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class UpdateUserTable extends Migration
-{
+class UpdateUserTable extends Migration {
+
     /**
      * Run the migrations.
      *
      * @return void
      */
-    public function up()
-    {
+    public function up() {
         Schema::table('users', function (Blueprint $table) {
             $table->uuid('guid')->unique()->after('id');
             $table->string('phone_number')->after('email')->nullable()->unique();
@@ -28,11 +27,13 @@ class UpdateUserTable extends Migration
      *
      * @return void
      */
-    public function down()
-    {
-        $table->renameColumn('username', 'name')->unique()->change();
-        $table->dropColumn('guid');
-        $table->dropForeign('users_status_id_foreign');
-        $table->dropColumn('status_id');
+    public function down() {
+        Schema::table('users', function (Blueprint $table) {
+            $table->renameColumn('username', 'name')->unique()->change();
+            $table->dropColumn('guid');
+            $table->dropForeign('users_status_id_foreign');
+            $table->dropColumn('status_id');
+        });
     }
+
 }

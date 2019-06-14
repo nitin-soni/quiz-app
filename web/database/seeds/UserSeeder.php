@@ -17,7 +17,7 @@ class UserSeeder extends Seeder {
      */
     public function run() {
         $faker = \Faker\Factory::create();
-        $limit = 50;
+        $limit = 2;
         echo 'Start seeding ' . "\n\r";
         $status = Status::where('alias', 'active')->first();
         for ($i = 1; $i <= $limit; $i++) {

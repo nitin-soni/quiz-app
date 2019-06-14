@@ -1,0 +1,46 @@
+.react-datepicker-wrapper, .react-datepicker__input-container{
+    width: 100%;
+}
+.Table__itemCount {
+    /* margin-top: 10px; */
+    font-size: 14px;
+}
+
+.Table__pagination {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 10px;
+}
+
+.Table__pageButton {
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.Table__pageButton:disabled {
+    cursor: not-allowed;
+    color: gray;
+}
+
+.Table__pageButton--active {
+    color: #45b3e3;
+    font-weight: bold;
+}
+.sidebar-dark .nav-link.active {
+    color: #fff;
+}
+
+.sidebar .nav-link.active {
+  font-weight: 700;
+}
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+}
+
+.modal-full .modal-content {
+    min-height: 100vh;
+}

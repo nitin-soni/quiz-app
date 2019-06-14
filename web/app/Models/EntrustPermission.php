@@ -27,7 +27,8 @@ class EntrustPermission extends Model implements EntrustPermissionInterface {
      *
      * @param array $attributes
      */
-    public function __construct(array $attributes = []) {
+    public function __construct(array $attributes = [])
+    {
         parent::__construct($attributes);
         $this->table = Config::get('entrust.permissions_table');
     }

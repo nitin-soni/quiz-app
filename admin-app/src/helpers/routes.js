@@ -1,0 +1,16 @@
+export default {
+    home: "/",
+    dashboard: "/",
+    login: "/login",
+    signup: "/signup",
+    forgotPassword: "/forgot-password",
+    subjectsList: "/subjects",
+    unitsList: "/units",
+    unitTopicList: "/unit-topics",
+    questionList: "/question",
+    usersList: "/users",
+    quizList: "/quiz",
+    settings: "/settings",
+    changePassword: "/change-password",
+    updateProfile: "/update-profile-details",
+}

@@ -6,6 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class UserProfile extends Model {
 
+    public static function getTableName() {
+        return ((new self)->getTable());
+    }
+
     /**
      * Get the user that owns the profile.
      */

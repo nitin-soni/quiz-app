@@ -19,6 +19,8 @@ class User extends Authenticatable implements AuthenticatableContract {
         EntrustUserTrait::restore insteadof SoftDeletes;
     }
 
+    public $timestamps = true;
+
     public function __construct($connecion = NULL) {
         parent::__construct();
     }
@@ -40,6 +42,10 @@ class User extends Authenticatable implements AuthenticatableContract {
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public static function getTableName() {
+        return ((new self)->getTable());
+    }
 
     /**
      * Here we are overriding this function for allowing login with username, email or phone

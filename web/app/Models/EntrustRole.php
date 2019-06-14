@@ -1,8 +1,4 @@
-<?php
-
-namespace App\Models;
-
-;
+<?php namespace App\Models;;
 
 /**
  * This file is part of Entrust,
@@ -11,12 +7,13 @@ namespace App\Models;
  * @license MIT
  * @package Zizaco\Entrust
  */
+
 use Zizaco\Entrust\Contracts\EntrustRoleInterface;
 use Zizaco\Entrust\Traits\EntrustRoleTrait;
 use Illuminate\Support\Facades\Config;
 
-class EntrustRole extends Model implements EntrustRoleInterface {
-
+class EntrustRole extends Model implements EntrustRoleInterface
+{
     use EntrustRoleTrait;
 
     /**
@@ -31,7 +28,8 @@ class EntrustRole extends Model implements EntrustRoleInterface {
      *
      * @param array $attributes
      */
-    public function __construct(array $attributes = []) {
+    public function __construct(array $attributes = [])
+    {
         parent::__construct($attributes);
         $this->table = Config::get('entrust.roles_table');
     }

@@ -34,7 +34,7 @@ class UsersTableSeeder extends Seeder
         $adminProfile->registered_from_ip = '0.0.0.0';
         $adminProfile->save();
         
-        $role = Role::where('name', '=', 'admin')->first();
+        $role = Role::where('name', '=', 'super_admin')->first();
         $admin->attachRole($role);
         
         

@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1de6836-fc74-4b44-8937-bba0d5c8084f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/alert.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/dashboard.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/subject.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/user.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Auth/ForgotPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Auth/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Auth/Signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Auth/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dashobard/Dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dashobard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Page404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PrivateRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ChangePassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/UpdateProfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Question/CreateQuestion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Question/EditQuestion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Question/ListAllQuestion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Question/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Quiz/CreateQuiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Quiz/EditQuiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Quiz/ListAllQuiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Quiz/QuizQuestions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Quiz/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Settings/SiteSettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Settings/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shared/FooterNav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shared/MessageMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shared/NotificationMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shared/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shared/TopBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shared/UserDropdownMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shared/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Subject/CreateSubject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Subject/EditSubject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Subject/ListAllSubject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Subject/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UnitTopic/CreateUnitTopic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UnitTopic/EditUnitTopic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UnitTopic/ListAllUnitTopic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UnitTopic/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Units/CreateUnit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Units/EditUnit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Units/ListAllUnit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Units/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/CreateUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/EditUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/ListAllUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/alert.constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/dashboard.constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/subject.constants.com.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/user.constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/auth-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/table-pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/alert.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/authentication.reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/dashboard.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/registration.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/subject.reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/users.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ConfigService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/DashBoardService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/QuestionService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/QuizService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/SubjectService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/UnitService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/UnitTopicService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/UserService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="QuizQuestions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Quiz/QuizQuestions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="222" column="28" selection-start-line="222" selection-start-column="28" selection-end-line="222" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alert.actions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/alert.actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuizService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/QuizService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateQuestion.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Question/CreateQuestion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListAllQuiz.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Quiz/ListAllQuiz.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6740">
+              <caret line="337" column="50" selection-start-line="337" selection-start-column="50" selection-end-line="337" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListAllQuestion.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Question/ListAllQuestion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6520">
+              <caret line="326" column="50" selection-start-line="326" selection-start-column="20" selection-end-line="326" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>createSubject</find>
+      <find>resetSubject</find>
+      <find>showCreateItemModal</find>
+      <find>subject</find>
+      <find>subjectGuid</find>
+      <find>unitService</find>
+      <find>sortingDirectionString</find>
+      <find>this.fetchAllItems = this.fetchAllItems.bind(this);</find>
+      <find>changeTableFilters</find>
+      <find>subjectService</find>
+      <find>user_role</find>
+      <find>gender</find>
+      <find>toggleCreateItemModal</find>
+      <find>createItem</find>
+      <find>toggleEditItemModal</find>
+      <find>userService</find>
+      <find>addNewAnswer</find>
+      <find>getTopicsForunit</find>
+      <find>noAnswers</find>
+      <find>addAn</find>
+      <find>componentWillReceiveProps</find>
+      <find>DatePicker</find>
+      <find>quiz_time</find>
+      <find>subjects</find>
+      <find>getUnitForSubject</find>
+      <find>handleInputChange</find>
+      <find>quizQuestions</find>
+      <find>resetItemForm</find>
+      <find>isUpdating</find>
+      <find>getQuizQuestions</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>{/*</replace>
+      <replace>*/}</replace>
+      <replace>className=</replace>
+      <replace>href=&quot;/messages&quot;</replace>
+      <replace>href=&quot;/notification&quot;</replace>
+      <replace>showCreateItemModal</replace>
+      <replace>saveItem</replace>
+      <replace>showEditItemModal</replace>
+      <replace>toggleCreateItemModal</replace>
+      <replace>resetItemForm</replace>
+      <replace>toggleEditItemModal</replace>
+      <replace>unit</replace>
+      <replace>item</replace>
+      <replace>subject_guid</replace>
+      <replace>unitService</replace>
+      <replace>unitService``</replace>
+      <replace>userService</replace>
+      <replace>getTopicsForUnit</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\sonin\Desktop\Learning\admin-app\src\components</dir>
+      <dir>C:\Users\sonin\Desktop\Learning\admin-app\src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/services/SubjectService.js" />
+        <option value="$PROJECT_DIR$/src/components/Units/index.js" />
+        <option value="$PROJECT_DIR$/src/helpers/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Page404.js" />
+        <option value="$PROJECT_DIR$/src/components/UnitTopic/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Question/index.js" />
+        <option value="$PROJECT_DIR$/src/components/User/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Settings/SiteSettings.js" />
+        <option value="$PROJECT_DIR$/src/components/Settings/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Profile/ChangePassword.js" />
+        <option value="$PROJECT_DIR$/src/components/Profile/UpdateProfile.js" />
+        <option value="$PROJECT_DIR$/src/helpers/routes.js" />
+        <option value="$PROJECT_DIR$/src/components/Profile/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Container.js" />
+        <option value="$PROJECT_DIR$/src/components/Shared/Sidebar.js" />
+        <option value="$PROJECT_DIR$/src/services/UnitService.js" />
+        <option value="$PROJECT_DIR$/src/services/UnitTopicService.js" />
+        <option value="$PROJECT_DIR$/src/css/custom.css" />
+        <option value="$PROJECT_DIR$/src/services/UserService.js" />
+        <option value="$PROJECT_DIR$/src/components/User/ListAllUser.js" />
+        <option value="$PROJECT_DIR$/src/services/DashBoardService.js" />
+        <option value="$PROJECT_DIR$/src/components/Shared/TopBar.js" />
+        <option value="$PROJECT_DIR$/src/components/User/CreateUser.js" />
+        <option value="$PROJECT_DIR$/src/components/User/EditUser.js" />
+        <option value="$PROJECT_DIR$/src/components/Auth/Login.js" />
+        <option value="$PROJECT_DIR$/src/actions/user.actions.js" />
+        <option value="$PROJECT_DIR$/src/components/Shared/UserDropdownMenu.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/actions/dashboard.actions.js" />
+        <option value="$PROJECT_DIR$/src/reducers/dashboard.reducer.js" />
+        <option value="$PROJECT_DIR$/src/components/Units/ListAllUnit.js" />
+        <option value="$PROJECT_DIR$/src/components/Subject/ListAllSubject.js" />
+        <option value="$PROJECT_DIR$/src/services/index.js" />
+        <option value="$PROJECT_DIR$/src/components/UnitTopic/ListAllUnitTopic.js" />
+        <option value="$PROJECT_DIR$/src/components/Question/ListAllQuestion.js" />
+        <option value="$PROJECT_DIR$/src/components/Question/CreateQuestion.js" />
+        <option value="$PROJECT_DIR$/src/components/Dashobard/Dashboard.js" />
+        <option value="$PROJECT_DIR$/src/components/Question/EditQuestion.js" />
+        <option value="$PROJECT_DIR$/src/components/Quiz/CreateQuiz.js" />
+        <option value="$PROJECT_DIR$/src/components/Subject/CreateSubject.js" />
+        <option value="$PROJECT_DIR$/src/components/Subject/EditSubject.js" />
+        <option value="$PROJECT_DIR$/src/components/Units/CreateUnit.js" />
+        <option value="$PROJECT_DIR$/src/components/Units/EditUnit.js" />
+        <option value="$PROJECT_DIR$/src/components/UnitTopic/CreateUnitTopic.js" />
+        <option value="$PROJECT_DIR$/src/components/UnitTopic/EditUnitTopic.js" />
+        <option value="$PROJECT_DIR$/src/components/Quiz/EditQuiz.js" />
+        <option value="$PROJECT_DIR$/src/components/Quiz/ListAllQuiz.js" />
+        <option value="$PROJECT_DIR$/src/services/QuestionService.js" />
+        <option value="$PROJECT_DIR$/src/actions/alert.actions.js" />
+        <option value="$PROJECT_DIR$/src/services/QuizService.js" />
+        <option value="$PROJECT_DIR$/src/components/Quiz/QuizQuestions.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/src/vendor/fontawesome-free/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="admin-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Quiz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/sonin/Desktop/Learning/admin-app/src/components/UnitTopic/ListAllUnitTopic.js" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\sonin\Desktop\Learning\admin-app\node_modules\eslint" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sonin\Desktop\Learning\admin-app\src\components\Quiz" />
+      <recent name="C:\Users\sonin\Desktop\Learning\admin-app\src\components\User" />
+      <recent name="C:\Users\sonin\Desktop\Learning\admin-app\src\components" />
+      <recent name="C:\Users\sonin\Desktop\Learning\admin-app\src\components\UnitTopic" />
+      <recent name="C:\Users\sonin\Desktop\Learning\admin-app\src\components\Subject" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1de6836-fc74-4b44-8937-bba0d5c8084f" name="Default" comment="" />
+      <created>1556833706672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556833706672</updated>
+      <workItem from="1556833709429" duration="602000" />
+      <workItem from="1556895811674" duration="6353000" />
+      <workItem from="1556919070071" duration="3293000" />
+      <workItem from="1557241086762" duration="3241000" />
+      <workItem from="1557326552966" duration="7044000" />
+      <workItem from="1557513514543" duration="6973000" />
+      <workItem from="1557768980563" duration="23621000" />
+      <workItem from="1557916388014" duration="2055000" />
+      <workItem from="1557931156367" duration="9370000" />
+      <workItem from="1557955410194" duration="9391000" />
+      <workItem from="1558016310680" duration="2911000" />
+      <workItem from="1558281265854" duration="591000" />
+      <workItem from="1558378472173" duration="12472000" />
+      <workItem from="1558450682092" duration="597000" />
+      <workItem from="1558461512645" duration="11605000" />
+      <workItem from="1558561186120" duration="1197000" />
+      <workItem from="1558620953137" duration="4017000" />
+      <workItem from="1558710992759" duration="7879000" />
+      <workItem from="1558728374410" duration="12102000" />
+      <workItem from="1558975570103" duration="6795000" />
+      <workItem from="1559058173471" duration="13979000" />
+      <workItem from="1559159844017" duration="2323000" />
+      <workItem from="1559167085940" duration="4814000" />
+      <workItem from="1559226380579" duration="6672000" />
+      <workItem from="1559247357377" duration="91000" />
+      <workItem from="1559248881334" duration="9796000" />
+      <workItem from="1559310196523" duration="12973000" />
+      <workItem from="1559491197086" duration="995000" />
+      <workItem from="1559586585565" duration="7810000" />
+      <workItem from="1559670905864" duration="5226000" />
+      <workItem from="1559685236427" duration="3960000" />
+      <workItem from="1559746677917" duration="18067000" />
+      <workItem from="1559828511470" duration="4389000" />
+      <workItem from="1559918651169" duration="3100000" />
+      <workItem from="1560055754823" duration="2013000" />
+      <workItem from="1560176136090" duration="3892000" />
+      <workItem from="1560202616059" duration="1503000" />
+      <workItem from="1560280027052" duration="9427000" />
+      <workItem from="1560377782294" duration="1167000" />
+      <workItem from="1560449876933" duration="10694000" />
+      <workItem from="1560529236652" duration="584000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="255584000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.1688988" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50223213" side_tool="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
+      <window_info id="Structure" order="1" sideWeight="0.5012285" side_tool="true" weight="0.25297618" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49776787" weight="0.38613862" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.53960395" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/Question/ListAllQuestion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6520">
+          <caret line="326" column="50" lean-forward="true" selection-start-line="326" selection-start-column="20" selection-end-line="326" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Settings/SiteSettings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="1" lean-forward="true" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Shared/Sidebar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/UnitTopicService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/alert.reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/UnitService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="9" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Quiz/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/UserService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/SubjectService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="48" column="1" selection-start-line="9" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/DashBoardService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User/CreateUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="173" column="83" selection-start-line="173" selection-start-column="83" selection-end-line="173" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User/EditUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="196" column="86" selection-start-line="196" selection-start-column="86" selection-end-line="196" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/user.actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Auth/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Shared/UserDropdownMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Shared/TopBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/users.reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/dashboard.actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/dashboard.reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/authentication.reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User/ListAllUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893">
+          <caret line="166" column="29" selection-start-line="166" selection-start-column="29" selection-end-line="166" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Units/ListAllUnit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="172" column="38" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Subject/ListAllSubject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="176" column="9" selection-start-line="176" selection-start-column="9" selection-end-line="176" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UnitTopic/ListAllUnitTopic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dashobard/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="83" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Question/EditQuestion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="346" column="98" selection-start-line="346" selection-start-column="98" selection-end-line="346" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Auth/Signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="52" column="5" selection-start-line="44" selection-start-column="20" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Quiz/CreateQuiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="143" column="24" lean-forward="true" selection-start-line="143" selection-start-column="24" selection-end-line="153" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Subject/CreateSubject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="91" column="92" selection-start-line="91" selection-start-column="92" selection-end-line="91" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Subject/EditSubject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="111" column="73" selection-start-line="111" selection-start-column="73" selection-end-line="111" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Units/CreateUnit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="97" column="89" selection-start-line="97" selection-start-column="89" selection-end-line="97" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Units/EditUnit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="108" column="73" selection-start-line="108" selection-start-column="73" selection-end-line="108" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UnitTopic/CreateUnitTopic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="126" column="81" selection-start-line="126" selection-start-column="81" selection-end-line="126" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UnitTopic/EditUnitTopic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="136" column="73" selection-start-line="136" selection-start-column="73" selection-end-line="136" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Quiz/EditQuiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Quiz/ListAllQuiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6740">
+          <caret line="337" column="50" selection-start-line="337" selection-start-column="50" selection-end-line="337" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/QuestionService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Question/ListAllQuestion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6520">
+          <caret line="326" column="50" selection-start-line="326" selection-start-column="20" selection-end-line="326" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Question/CreateQuestion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="445" column="8" selection-start-line="445" selection-start-column="8" selection-end-line="445" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/alert.actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/QuizService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Quiz/QuizQuestions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="222" column="28" selection-start-line="222" selection-start-column="28" selection-end-line="222" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

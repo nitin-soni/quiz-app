@@ -13,6 +13,4 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/admin', function (Request $request) {
-    // return $request->admin();
-})->middleware('auth:api');
+Route::get('dashboard/statics', 'Api\DashboardController@statics')->middleware('auth:api');
